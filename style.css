@@ -7,8 +7,6 @@ section{
     padding: 50px;
 }
 .navbar{
-    position: absolute;
-    position: sticky;
     background-color: white;
 }
 .nav-list{
