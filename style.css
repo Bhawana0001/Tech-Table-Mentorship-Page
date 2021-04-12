@@ -118,6 +118,32 @@ section{
     align-items: center;
     justify-content: center;  
 }
+footer{
+    background-color: rgb(78, 76, 76);
+    color: white;  
+}
+.footer-content{
+ padding-top: 25px;
+
+}
+.footer-content div{
+    padding-left: 200px;
+}
+.content{
+  width: 500px;
+}
+.content p{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.links li a{
+   font-size: 20px;
+   font-family: sans-serif;
+}
+.address p{
+    font-size: 20px;
+    font-family: sans-serif;
+}
 @media (max-width: 650px) {
     .p1{
         width: 500px;
@@ -137,4 +163,22 @@ section{
         margin: 50px;
         margin-left: 25%;
     }
+}
+
+  body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
