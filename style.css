@@ -121,6 +121,7 @@ section{
 footer{
     background-color: rgb(78, 76, 76);
     color: white;  
+   margin-top: 140px;
 }
 .footer-content{
  padding-top: 25px;
