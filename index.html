@@ -10,38 +10,43 @@
     <title>Mentorship Page</title>
 </head>
 <body>
-    <nav class="navbar navbar-fixed-top">
-        <div class="container-fluid">
+    <section>
+    <nav class="navbar navbar-fixed-top  navbar-inverse">
+        <div class="navigation container-fluid">
         <div class="logo navbar-header">
-            <img src="img/TT logo.png">
-        </div>
-          <ul class="nav-list">
+            <img src="img/TT logo.png" alt="logo">
+        </div>  
+        <ul class="nav-list nav navbar-nav">
               <li><a href="#Home">Home</a></li>
               <li><a href="#Program">Programs</a></li>
-              <li><a href="#profil">Testimonials</a></li>
-              <li><a href="#Join">Mentor form</a></li>
-          </ul>
-        </div>
+              <li><a href="#profile">Testimonials</a></li>
+              <li><a href="#Join">Mentor</a></li>
+          </ul> 
+        </div> 
     </nav>
-    
+</section>
+
     <section id="Home" >
-        
+        <div class="image">
+            <img src="img/mentor3.png">
+        </div>  
     <div class="sec1">
       <h1>Join Mentorship, Be the expert</h1>
       <h3>From Zero to Hero</h3>
     </div>
+    
     </section>
     <section id="Program">
         <div class="heading">Our Programs</div> 
      <div class="Programs flex-container">
          <div class="p1" id="webD">
-             <h1>Web Development</h1>
+             <h2>Web Development</h2>
              <img src="img/webD3.png" alt="Web Development">
             <p>Building and maintenance of websites. It’s the work that happens behind the scenes to make 
                 a website look great, work fast and perform well with a seamless user experience.</p>
          </div>
          <div class="p1" id="AppD">
-             <h1>App Development</h1>
+             <h2>App Development</h2>
              <img src="img/appD.jfif" alt="App Development">
              <p>Creating a computer program or a set of programs to perform the different tasks that a business requires.
                 Every app-building process follows the same steps: gathering requirements, designing prototypes, testing,
@@ -49,13 +54,13 @@
              </p>
          </div>
          <div class="p1" id="Design">
-             <h1>Graphic-Design.</h1>
+             <h2>Graphic-Design</h2>
              <img src="img/gd.jfif" alt="Graphic Design">
              <p>Find Your Motivation.Get Passionate About Everything Visual.Learn the Principles of Design.Getting inspired
                   by designers we give you a roadmap and mentorship of what we need to learn.Build Projects and Learn.</p>
          </div>
          <div class="p1" id="SSkill">
-             <h1>Soft Skills</h1>
+             <h2>Soft Skills</h2>
              <img src="img/softSkills.png" alt="soft skills">
              <p>Soft skills are a combination of people skills, social skills, communication skills,
                   character or personality traits, attitudes, mindsets, career attributes, social intelligence 
@@ -66,27 +71,23 @@
     
     </section>
        
-    <section id="profil">
+    <section id="profile">
         <div class="heading">Testimonials</div>
         <div class="demo flex-container">
             <div class="d1 ">
-                <img src="img/demo1.jfif"alt="demo1">
+                <div class="demo-img"><img src="img/demo1.jfif"alt="demo1"></div>
                 <div class="text"><p>“Education is the most powerful weapon you can use to change the world.” — BB King</p></div>
             </div>
-            <div class="d1 ">
-                <img src="img/demo2.jfif"alt="demo2">
+            <div class="d1">
+               <div class="demo-img" > <img src="img/demo2.jfif"alt="demo2"></div>
                 <div class="text"><p>“You don’t have to be great to start, but you have to start to be great.” – Zig Ziglar</p></div>
             </div>
-            <div class="d1 ">
-                <img src="img/demo3.jfif"alt="demo3" style="width: 225px;height: 224px;">
-                <div class="text"><p>“Don’t let what you cannot do interfere with what you can do.” — John Wooden</p></div>
-            </div>
             <div class="d1">
-                <img src="img/demo4.jfif"alt="demo4">
+                <div class="demo-img"><img src="img/demo4.jfif"alt="demo4"></div>
                 <div class="text"><p>“Learning is never done without errors and defeat.” – Vladimir Lenin</p></div>
             </div>
             <div class="d1">
-                <img src="img/demo5.jfif"alt="demo5">
+                <div class="demo-img"><img src="img/demo5.jfif"alt="demo5"></div>
                 <div class="text"><p>“I find that the harder I work, the more luck I seem to have.” – Thomas Jefferson</p></div>
             </div>
         </div>
@@ -124,14 +125,13 @@
                <textarea class="form-control" placeholder="Write Your Experience Here..." style="height:170px"></textarea>
             </div>
             <div class="Submit">
-               <input type="submit" value="Submit" >
+               <input type="submit" value="Submit" class="form-submit-button" >
             </div>
            </div>
            
     </section>
 
-    <br>
-    <br>
+    
     <footer class="container-fluid ">
         <div class=" footer-content flex-container">
         <div class="content ">
@@ -151,9 +151,9 @@
 
        <div class="address">
            <h2 style="font-weight: 700;">Contact Us</h2>
-           <p>Taramani IIT Gate Rd,
+           <p>Taramani IIT Gate Rd,<br>
             Indian Institute Of Technology,
-            Chennai, Tamil Nadu
+            Chennai, Tamil Nadu<br>
             600036
             <br>
            <p>admin@techtable.co.in</p>
@@ -162,6 +162,8 @@
        </div>
     </div>
     </footer>
+    <br>
+    <br>
 </body>
 </html>
 
