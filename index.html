@@ -11,19 +11,32 @@
 </head>
 <body>
     <section>
-    <nav class="navbar navbar-fixed-top  navbar-inverse">
+
+    <nav class="navbar navbar-fixed-top  navbar-inverse h-nav">
+       
         <div class="navigation container-fluid">
         <div class="logo navbar-header">
             <img src="img/TT logo.png" alt="logo">
-        </div>  
-        <ul class="nav-list nav navbar-nav">
+        </div>
+        <ul class="nav-list nav navbar-nav v-class">
               <li><a href="#Home">Home</a></li>
               <li><a href="#Program">Programs</a></li>
               <li><a href="#profile">Testimonials</a></li>
               <li><a href="#Join">Mentor</a></li>
           </ul> 
+        
+        <div class="burger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
         </div> 
     </nav>
+
+   <nav>
+       
+   </nav>
+
 </section>
 
     <section id="Home" >
@@ -164,6 +177,17 @@
     </footer>
     <br>
     <br>
+    <script>
+        burger= document.querySelector('.burger')
+navbar= document.querySelector('.navbar')
+navList=document.querySelector('.nav-list')
+
+burger.addEventListener('click', ()=>{
+   navbar.classList.toggle('h-class');
+   navList.classList.toggle('v-class');
+})
+    </script>
 </body>
+
 </html>
 

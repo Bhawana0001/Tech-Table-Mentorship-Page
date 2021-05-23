@@ -16,10 +16,12 @@ section{
 }
 .navigation{
     display: flex;
+    flex-wrap: wrap;
     margin: auto;
 }
 .nav-list{
     display: flex;  
+    flex-wrap: wrap;
 }
 .nav-list li{
     list-style: none;
@@ -27,7 +29,6 @@ section{
    margin: 10px;
    font-weight: 700;
 }
-
 .logo img{
     width: 150px;
 }
@@ -214,6 +215,28 @@ footer{
     }
 }
 
+@media(max-width:550px)
+{
+    .navigation{
+        display: block;
+        text-align: center;
+    }
+    .nav-list li{
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav{
+        height: 80px;
+    }
+    .v-class{
+        opacity: 1;
+    }
+}
+
   body {
 	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
@@ -231,3 +254,19 @@ footer{
 		background-position: 0% 50%;
 	}
 }
+
+.burger{
+    
+  position: absolute;
+  cursor: pointer;
+  right: 5%;
+  top:25px;
+}
+
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 3px 3px;
+}
+
