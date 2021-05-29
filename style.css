@@ -233,7 +233,7 @@ footer{
         height: 80px;
     }
     .v-class{
-        opacity: 1;
+        opacity: 0;
     }
 }
 
